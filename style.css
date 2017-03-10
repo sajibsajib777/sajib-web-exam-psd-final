@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.weapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	overflow: hidden;
+}
+
+.logo {
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+	width: 79%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	display: inline-block;
+	margin-right: 45px;
+	text-transform: uppercase;
+	color: coral;
+}
+.email {
+	text-align: right;
+	margin-right: 40px;
+}
+
+.list {
+}
+
+.slider {
+	position: relative;
+}
+
+.background {
+	width: 100%;
+}
+
+.slider_text {
+	width: 60%;
+	position: absolute;
+	top: 10%;
+	left:10%;
+}
+
+.s_text {
+	text-transform: uppercase;
+	font-size: 40px;
+	color: white;
+}
+
+.s_box {
+}
+
+.slider_image1 {
+	width: 39%;
+	position: absolute;
+	top: 20%;
+	left: 57%;
+}
+
+.slider_image2 {
+	width: 30%;
+	position: absolute;
+	top: 5%;
+	left: 66%;
+}
+
+.services {
+
+}
+
+.service {
+	margin: 50px 0px;
+	width: 32%;
+	display: inline-block;
+}
+
+.se_title {
+}
+
+.se_line_break {
+}
+
+.se_text {
+}
+
+.portfolios {
+}
+
+.portfolio {
+	display: inline-block;
+	width: 24%
+}
+
+.p_image {
+}
+
+.p_view {
+}
+
+.blog {
+	overflow: hidden;
+	margin: 50px 0px;
+}
+
+.blog_update {
+	width: 70%;
+	float: left;
+}
+
+.bu_title {
+}
+
+.bu_text {
+}
+
+.conect_with {
+	width: 29%;
+	float: right;
+}
+
+.cw_title {
+}
+
+.cw_link {
+	margin-left: 30px;
+}
+
+.footer {
+	overflow: hidden;
+	margin: 50px 0px;
+}
+
+.all_right {
+	width: 60%;
+	float: left;
+}
+
+.f_logo {
+	width: 39%;
+	float: right;
+}
