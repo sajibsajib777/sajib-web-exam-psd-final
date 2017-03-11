@@ -34,126 +34,158 @@ h1,h2,h3,h4,h5,h6 {
 	display: inline-block;
 	margin-right: 45px;
 	text-transform: uppercase;
-	color: coral;
+	color: #fe9b00;
 }
 .email {
 	text-align: right;
 	margin-right: 40px;
 }
-
-.list {
-}
-
 .slider {
 	position: relative;
+	margin: 20px 0px;
 }
-
 .background {
 	width: 100%;
 }
-
 .slider_text {
 	width: 60%;
 	position: absolute;
 	top: 10%;
-	left:10%;
+	left:4%;
 }
-
 .s_text {
 	text-transform: uppercase;
 	font-size: 40px;
 	color: white;
+	font-family: sans-serif;
 }
-
 .s_box {
+	width: 85%;
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	font-size: 8px;
 }
-
+.s_box h2{
+	display: inline-block;
+	margin-right: 70px;
+	margin-left: 15px;
+	padding: 15px 0px;
+	font-family: sans-serif;
+}
+#scd{
+	color: #fe9b00;
+}
 .slider_image1 {
 	width: 39%;
 	position: absolute;
 	top: 20%;
 	left: 57%;
 }
-
 .slider_image2 {
 	width: 30%;
 	position: absolute;
 	top: 5%;
 	left: 66%;
 }
-
 .services {
-
+	margin: 20px 0px;
 }
-
 .service {
-	margin: 50px 0px;
 	width: 32%;
 	display: inline-block;
+	margin-right: 1%;
+	font-family: sans-serif;
 }
-
 .se_title {
+	text-transform: uppercase;
+	font-size: 12px;
 }
-
-.se_line_break {
+.se_title img{
+	width: 35px;
 }
-
-.se_text {
+.se_text a{
+	text-decoration: none;
+	color: #fe9b00;
+	text-transform: uppercase;
 }
-
-.portfolios {
+.se_text img{
+	width: 20px;
 }
-
+#tic{
+	width: 15px;
+}
 .portfolio {
 	display: inline-block;
-	width: 24%
+	width: 24.5%;
+	position: relative;
+	margin: 20px 0px;
 }
-
-.p_image {
+.po_title{
+	text-transform: uppercase;
+	margin: 15px 0px;
+	font-family: sans-serif;
+	font-size: 12px;
 }
-
+.po_title img{
+	width: 35px;
+}
 .p_view {
+	font-size: 10px;
+	font-family: sans-serif;
+	background: #fe9b00;
+	padding: 3px;
+	position: absolute;
+	bottom: 4px;
+	right: 20px;
 }
-
 .blog {
 	overflow: hidden;
 	margin: 50px 0px;
 }
-
 .blog_update {
 	width: 70%;
 	float: left;
 }
-
 .bu_title {
+	text-transform: uppercase;
+	margin: 15px 0px;
+	font-family: sans-serif;
+	font-size: 10px;
 }
-
-.bu_text {
+.bu_title img{
+	width: 35px;
 }
-
 .conect_with {
 	width: 29%;
 	float: right;
 }
-
 .cw_title {
+	text-transform: uppercase;
+	margin: 15px 0px;
+	font-family: sans-serif;
+	font-size: 10px;
 }
-
+.cw_title img{
+	width: 35px;
+}
 .cw_link {
 	margin-left: 30px;
 }
-
-.footer {
-	overflow: hidden;
-	margin: 50px 0px;
+.wide_footer{
+	background: #e2e2e2;
 }
-
+.footer {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
 .all_right {
 	width: 60%;
 	float: left;
+	font-family: sans-serif;
 }
-
 .f_logo {
-	width: 39%;
+	width: 20%;
 	float: right;
 }
